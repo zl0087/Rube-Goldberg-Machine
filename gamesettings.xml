@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Rube Goldberg Machine" />
+  <renderer width="1024" height="768" />
+
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\background.jpg" />
+    <image name="text" src="Images\Text.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="ball" file="Images\ball.png"/>
+    <sprite name="button" file="Images\button1.png"/>
+    <sprite name="platform" file="Images\Platform.png"/>
+    <sprite name="dominos" file="Images\dominos.png"/>
+    <sprite name="ball1" file="Images\ball1.png"/>
+    <sprite name="line" file="Images\line.tif"/>
+    <sprite name="bucket" file="Images\\bucket.tif"/>
+    <sprite name="safe" file="Images\safe.tif"/>
+    <sprite name="elephant" file="Images\elephant.tif"/>
+    <sprite name="pulley" file="Images\pulleywheel.tif"/>
+    <sprite name="bar" file="Images\bar.png"/>
+    <sprite name="bot" file="Images\bot.png"/>
+    <sprite name="pin" file="Images\pin.tif"/>
+    <sprite name="circle" file="Images\circle.png"/>
+    <sprite name="rotatebar" file="Images\rotatebar.png"/>
+    <sprite name="circle1" file="Images\circle1.png"/>
+    <sprite name="crate1" file="Images\crate1.jpg"/>
+    <sprite name="woodenplatform" file="Images\woodenplatform.png"/>
+    <sprite name="carbody" file="Images\carbody.tif"/>
+    <sprite name="carwheel" file="Images\carwheel.tif"/>
+    <sprite name="woodendominos" file="Images\woodendominos.png"/>
+    <sprite name="ball2" file="Images\ball2.png"/>
+
+
+
+  </sprites>
+
+  <!-- sound -->
+  <sounds>
+    <sound file="Sounds\yay.wav" instances="1"/>
+    <sound file="Sounds\bonk.wav" instances="4"/>
+    <sound file="Sounds\dominos.wav" instances="3"/>
+    <sound file="Sounds\ball2.wav" instances="2"/>
+    <sound file="Sounds\crate.wav" instances="2"/>
+    <sound file="Sounds\car.wav" instances="2"/>
+    <sound file="Sounds\rotatebar.wav" instances="5"/>
+
+
+  </sounds>
+  
+  <!-- debugger settings -->
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+</settings>
